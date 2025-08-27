@@ -1,15 +1,34 @@
+# Android Studio / IntelliJ
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configs
 local.properties
+
+# Logs
+*.log
+
+# NDK / C++
+.externalNativeBuild/
+.cxx/
+
+# APK / AAB files
+*.apk
+*.aab
+
+# Captures
+captures/
+
+# Keystore (for app signing)
+*.jks
+*.keystore
+
+# Crashlytics / Firebase config
+app/google-services.json
